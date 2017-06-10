@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <script src="./node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
+    <script src="./node_modules/bignumber.js/bignumber.min.js"></script>
+    <!-- <script src="./node_modules/crypto&#45;js/aes.js"></script> -->
+    <script src="./node_modules/utf8/utf8.js"></script>
+    <script src="./node_modules/web3/dist/web3.min.js"></script>
+    <script src="./js/index.js"></script>
+  </head>
+  <body>
+    <div>
+      <label for="user-name">ユーザ名</label>
+      <input type="text" name="" id="user-name" value="0xf5290627291e0dd723741ead15ca20242aeccdd2" />
+      <label for="password">パスワード</label>
+      <input type="text" name="" id="password" value="foo" />
+      <input type="button" name="" id="" value="ログイン" onclick="login()" />
+    </div>
+
+    <table id="list">
+      <tr>
+        <th></th>
+        <th>name</th>
+        <th>count</th>
+      </tr>
+    </table>
+    <br />
+    <input type="button" value="countUp" onClick="countUp()"/>
+    <input type="button" value="refresh" onClick="refresh()"/>
+  </body>
+</html>

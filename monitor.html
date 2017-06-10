@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <script src="./node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
+    <script src="./node_modules/bignumber.js/bignumber.min.js"></script>
+    <!-- <script src="./node_modules/crypto&#45;js/aes.js"></script> -->
+    <script src="./node_modules/utf8/utf8.js"></script>
+    <script src="./node_modules/web3/dist/web3.min.js"></script>
+    <script src="./js/monitor.js"></script>
+  </head>
+  <body>
+    <input type="button" value="start" onclick="startMonitor()"/>
+    <input type="button" value="start" onclick="stopWatch()"/>
+    <table id="list" border="1">
+      <tr>
+        <th>Block Number</th>
+        <th>TimeStamp</th>
+        <th>BlockHash</th>
+        <th>Nonce</th>
+        <th>Transaction</th>
+      </tr>
+    </table>
+  </body>
+</html>
