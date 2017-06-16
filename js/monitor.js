@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 });
 
 
-const url = 'http://10.0.1.98:8545';
+const url = 'http://localhost:8545';
 let userName;
 let web3;
 
